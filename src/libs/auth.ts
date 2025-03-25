@@ -33,7 +33,7 @@ export const authOptions: NextAuthOptions = {
          * You can also use the `req` object to obtain additional parameters (i.e., the request IP address)
          */
         const { email, password } = credentials as { email: string; password: string }
-
+  
         try {
           // ** Login API Call to match the user credentials and receive user data in response along with his role
           const res = await fetch(`${process.env.API_URL}/login`, {

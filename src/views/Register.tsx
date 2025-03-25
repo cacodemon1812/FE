@@ -78,7 +78,7 @@ const Register = ({ mode }: { mode: Mode }) => {
             className='max-bs-[650px] max-is-full bs-auto'
           />
         </div>
-        <img src={authBackground} className='absolute bottom-[4%] z-[-1] is-full max-md:hidden' />
+        <img alt='' src={authBackground} className='absolute bottom-[4%] z-[-1] is-full max-md:hidden' />
       </div>
       <div className='flex justify-center items-center bs-full bg-backgroundPaper !min-is-full p-6 md:!min-is-[unset] md:p-12 md:is-[480px]'>
         <Link
